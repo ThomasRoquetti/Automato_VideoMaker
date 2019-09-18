@@ -9,7 +9,7 @@ async function start(){
   content = robots.userInput()
   await robots.text(content)
 
-  console.log(content.sentences)
+  console.log(JSON.stringify(content, null, 4))
 }
 
 start()

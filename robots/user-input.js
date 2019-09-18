@@ -1,7 +1,9 @@
 const readline = require('readline-sync')
 
 function robot(){
-  const content = {}
+  const content = {
+    maximumSentences: 7
+  }
 
   content.searchTerm = askAndReturnSearchTerm()
   content.prefix = askAndReturnPrefix()
