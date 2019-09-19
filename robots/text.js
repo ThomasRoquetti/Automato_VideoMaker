@@ -70,7 +70,7 @@ async function robot() {
       content.sentences.push({
         text: sentence,
         keywords: [],
-        image: []
+        images: []
       })
     })
 
