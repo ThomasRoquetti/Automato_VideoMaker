@@ -65,4 +65,5 @@ credentials/*.json
 credentials/*.md
 
 #content
-content.json
+content/content.json
+content/*.png
