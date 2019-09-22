@@ -67,3 +67,5 @@ credentials/*.md
 #content
 content/content.json
 content/*.png
+content/*.mov
+content/*.jpg
